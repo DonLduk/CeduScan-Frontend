@@ -13,81 +13,80 @@ body {
 
 .NavContainer{
 	margin: auto;
-	max-width: 1600px;
-	width: 100%
+	max-width: 1200px;
 
 	display: flex;
-	flex-flow: row wrap;
-	flex-direction: column;
+	flex-flow: column wrap;
 	align-items: center;
 }
 
 .container2{
 	margin: auto;
 	max-width: 1200px;
-	width: 100%
 
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column wrap; 
 }
 
-.container3{
+.FooterContainer{
 	margin: auto;
 	max-width: 1200px;
-	width: 100%
 
 	display: flex;
-	flex-flow: row wrap;
-	flex-direction: column;
+	flex-flow: column wrap;
 	align-items: center;
+	align-content: space-around;
 }
 
 
-#navbar{
+#NavMenu{
 	text-align: center;
 	background-color: #E0E0E0;
 	padding: 0.5em 0em 0.5em 0em;
 	text-transform: uppercase;
 
-	flex-basis: 100%;
 }
 
-#navbar a{
+#NavMenu a{
 	color: black;
 	text-decoration: none;
 }
 
-#navbar li {
+#NavMenu li {
  	display: inline;
  	padding-right: 3em
 }
 
-#section{
+#content{
 	background-color: white;
-	padding: 1em;
+	padding: 1em 0 1em 0;
 
-	flex-basis: 100%;	
 }
 
-#footer{
-	padding: 1em;
+#content p{
+	padding: 0em 1em 0 1em;
+}
+
+#FooterBar{
+	padding: 2em 0 2em 0;
 	background-color: grey;
 	color: #D7D7D7;
-	justify-content: center;
 	text-align: center;
+
 }
 
-#footer a{
+#FooterBar a{
 	text-decoration: none;
 	color: #D7D7D7;
-	padding: 0em 3em 0em 2em
+	padding: 0em 1em 0em 1em
 }
 
-#footer li {
+#FooterBar li {
  	display: inline;
+
 }
 
-.container3 p {
+#FooterBar p {
 	text-align: center;
 	font-size: 0.7em;
 	color: #A7A7A7;
